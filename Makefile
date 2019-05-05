@@ -6,7 +6,7 @@
 #    By: dsaripap <marvin@codam.nl>                   +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/03/27 14:38:43 by dsaripap      #+#    #+#                  #
-#    Updated: 2019/04/11 18:04:36 by dsaripap      ########   odam.nl          #
+#    Updated: 2019/05/05 20:28:37 by dsaripap      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,17 +76,17 @@ SRC = ft_memset.c \
 	  ft_lstlen.c \
 	  ft_lstfindelem.c \
 	  ft_lstsort.c \
-	  ft_del.c
+	  ft_del.c \
+	  ft_strreplace.c
 
 OBJ = $(SRC:%.c=%.o)
 
-INCL = libft.h
+INCL = includes/
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	ar rc $(NAME) $(OBJ)
-	ranlib $(NAME)
+	ar crs $(NAME) $(OBJ)
 
 %.o: %.c $(INCL)
 	$(CC) -c $<

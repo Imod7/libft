@@ -6,11 +6,11 @@
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/09 19:47:07 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/11 14:52:42 by dsaripap      ########   odam.nl         */
+/*   Updated: 2019/05/02 13:27:25 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 t_list		*ft_strarrtolst(char **str)
 {

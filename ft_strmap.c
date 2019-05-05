@@ -6,11 +6,11 @@
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/01 16:04:58 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/01 17:22:03 by dsaripap      ########   odam.nl         */
+/*   Updated: 2019/05/02 13:30:19 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char		*ft_strmap(char const *s, char (*f)(char))
 {

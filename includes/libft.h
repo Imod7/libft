@@ -6,7 +6,7 @@
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/01 17:11:12 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/11 17:43:42 by dsaripap      ########   odam.nl         */
+/*   Updated: 2019/05/05 20:27:50 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,5 +92,6 @@ int					ft_lstlen(t_list *lst);
 int					ft_lstfindelem(t_list *lst, t_list *search_node);
 void				ft_lstsort(t_list **lst, int cmpf());
 void				ft_del(void *content, size_t content_size);
+void				ft_strreplace(char **original, char *new);
 
 #endif

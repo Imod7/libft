@@ -6,11 +6,11 @@
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/02 17:50:21 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/06 20:28:18 by dsaripap      ########   odam.nl         */
+/*   Updated: 2019/05/02 13:33:48 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 static void	fill_array(char **array, char const *s, char c, int words)
 {

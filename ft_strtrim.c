@@ -6,11 +6,11 @@
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/02 15:46:21 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/06 20:28:44 by dsaripap      ########   odam.nl         */
+/*   Updated: 2019/05/02 13:34:46 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 static int	count_spaces_end(char const *s, int len)
 {

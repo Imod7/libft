@@ -6,11 +6,11 @@
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/01 16:58:04 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/12 11:52:52 by dsaripap      ########   odam.nl         */
+/*   Updated: 2019/05/02 13:31:37 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 int			ft_strnequ(char const *s1, char const *s2, size_t n)
 {

@@ -1,18 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_putchar.c                                       :+:    :+:            */
+/*   ft_strreplace.c                                    :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/04/03 18:12:18 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/05/02 13:24:59 by dsaripap      ########   odam.nl         */
+/*   Created: 2019/05/05 20:25:27 by dsaripap      #+#    #+#                 */
+/*   Updated: 2019/05/05 20:29:32 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "includes/libft.h"
 
-void	ft_putchar(char c)
+void	ft_strreplace(char **original, char *new)
 {
-	write(1, &c, 1);
+	free(*original);
+	*original = new;
 }

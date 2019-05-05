@@ -6,11 +6,11 @@
 /*   By: dsaripap <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/04/07 14:58:54 by dsaripap      #+#    #+#                 */
-/*   Updated: 2019/04/10 19:28:16 by dsaripap      ########   odam.nl         */
+/*   Updated: 2019/05/02 13:21:09 by dsaripap      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 t_list		*ft_lstnew(void	const *content, size_t content_size)
 {
